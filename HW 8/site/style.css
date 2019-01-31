@@ -1,0 +1,224 @@
+body{
+    background:#f8f8f8;
+}
+
+.menu a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color:orangered;
+    
+}
+
+.menu a:hover{
+    color:green;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 30px 20px 0px 0px; 
+    float: right; 
+}
+
+.menu li{
+    display: inline;
+}
+
+.logohead{
+    color:orangered;
+    margin: 0px;
+}
+
+.header{
+    height: 180px;
+}
+
+input[name = "email"]{
+    color:orangered;
+}
+
+input[name = "email"]:focus{
+    background-color: orangered;
+    color:yellow;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pict{
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+
+.char{
+    clear: both;
+}
+
+h3{
+    color:black;
+    font-size: 18px;
+    font-weight: 400;
+    background:#eaeaea;
+}
+
+.list{
+    width:1080px;
+    margin:0px auto;
+    overflow: hidden;
+}
+
+.list .shortcut:nth-child(3n-2){
+    margin-left: 0px;
+}
+
+.list .shortcut:nth-child(3n){
+    margin-right: 0px;
+}
+
+.list .shortcut:nth-child(3-n){
+    margin-top: 0px;
+}
+
+.shortcut{
+    float: left;
+    margin: 20px 40px 0px;
+    height: 310px;
+    width: 300px;
+    border: orangered solid 1px;
+    
+}
+
+
+
+.shortcut img{
+    width: 299px;
+    height: 200px;
+    display: block;
+    margin: 1px;
+}
+
+.buy{
+    height: 30px;
+    width: 120px;
+    background-color: #eaeaea;
+}
+
+.buy:hover{
+    background-color: orangered;
+}
+
+.buy:active{
+    background-color: crimson;
+}
+
+.map{
+    display:block;
+    width: 100%;
+    height:374px;
+    clear: both;
+}
+
+.short{
+    color:#707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px; 
+}
+
+.short:first-letter{
+    color:orangered;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+.footer{
+    background-color:#eaeaea;
+    height: 150px;
+    clear: both;
+}
+
+hr{
+    clear: both;
+}
+
+.footer div{
+    float: right;
+    margin: 30px 20px 0px 0px;
+}
+
+.full{
+    color:#484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.full:first-letter{
+    color:orangered;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+/*.clist{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 26px;
+    background: url(images/logo.png) repeat-y;
+    background-position-x: 0px;
+    background-position-y: 1px;
+    background-size: 49px;
+    list-style-type: none;
+}*/
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.charset {
+    border-collapse: collapse;
+}
+
+.charset td{
+    border:2px solid orangered;
+}
+
+.firstrow{
+    height: 50px;
+}
+
+a > img{
+    border: 1px solid orangered;
+}
+
+a > img:hover{
+    border-color: #f8f8f8;
+}
+
+.logo{
+    height: 150px;
+    width: 200px;
+    background: url(images/shoplogo.jpg) no-repeat left top;
+    background-size:200px;
+    margin: 30px 0px 0px 20px;
+    float: left;
+}
+
+input[type="text"]{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    height: 16px;
+    width: 300px;
+    text-transform: capitalize;
+}
+
+textarea{
+    width:300px;
+    height: 84px;
+    text-transform: capitalize;
+}
