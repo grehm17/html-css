@@ -1,0 +1,553 @@
+.logopic{
+    height:111px;
+    width: 125px;
+    background:url(images/surflogo.png) no-repeat;
+    background-size: cover;
+    margin: 0px 0px 0px 70px;
+}
+
+.header{
+    height: 700px;
+    background:url(images/indexBack.jpg) center center;
+    background-size: cover;
+}
+
+.content{
+    width:100%;
+    background-color: rgb(171, 234, 250);
+}
+
+/* .containerwr{
+    margin: 0px auto;
+    height: inherit;
+    
+} */
+
+/* .headpict{
+    margin: 0px auto;
+    height: inherit;
+    width:1125px;
+} */
+
+.welcome{
+    background-color: #fff51f;
+    width: 270px;
+    height: 300px;
+    position: absolute;
+    top: 336px;
+    padding: 82px 25px 0 25px;
+    box-sizing: border-box;
+}
+
+.welcf{
+    margin:0px auto;
+    width:215px;
+    font-size: 30px;
+    font-family: "Raleway",sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.welcs{
+    margin:21px auto 0px;
+    width:235px;
+    font-size: 18px;
+    font-family: "Raleway",sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 0.778;
+    font-style: italic;
+}
+
+.headright{
+    float: right;
+    margin:172px 0px 0px 0px;
+    width:300px;
+}
+
+.headrf{
+    margin:48px 0px 0px;
+    font-size: 48px;
+    font-family: "Raleway",sans-serif;
+    color: rgb(255, 245, 31);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.708;
+    text-align: left;
+}
+
+.headrs{
+    margin:10px 0px 0px;
+    font-size: 18px;
+    font-family: "Raleway",sans-serif;
+    color: rgb(255, 245, 31);
+    line-height: 1.3;
+    text-align: left;
+}
+
+.buybtn{
+    display:block;
+    margin:64px 0px 0px 5px;
+    padding: 16px 2px 0px 0px;
+    box-sizing:border-box;
+    text-align: center;
+    background-color: rgb(255, 245, 31);
+    width:124px;
+    height:49px;
+    font-size: 14px;
+    font-family: "Raleway",sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu{
+    background-color: rgb(38, 210, 252);
+    height: 471px;
+    margin: -45px 0px 0px 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.menuhead{
+    padding: 20px 0px 15px 40px; 
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 2.571;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+}
+
+.menuline{
+    padding: 2px 0px 0px 40px;
+}
+
+.menuline:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+.menu a{
+    display:block;
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 2.571;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: rgb(255, 255, 255);
+}
+
+/* .ContentCon{
+    display: flex;
+} */
+
+.leftpart{
+    margin:-40px 0px 0px 30px;
+    background-color: rgb(248, 248, 248);
+}
+
+.shortcut{
+    width:270px;
+    height:320px;
+    margin:15px 0px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+.shortcut:nth-child(3-n){
+    margin-top:0px;
+}
+
+.shortcut:nth-child(3n){
+    margin-right:0px;
+}
+
+.shortcut:nth-child(3n-2){
+    margin-left:0px;
+}
+
+.shortcut img{
+    display:block;
+    margin:10px;
+}
+
+h2{
+    margin:24px 0px 10px 0px;
+    padding:0px 0px 0px 24px;
+    font-size: 24px;
+    font-family: "Roboto",sans-serif;
+    color: rgb(113, 113, 113);
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.listcontainerwr{
+    overflow: hidden;
+    padding: 0px 0px 20px;
+    background-color:  rgb(171, 234, 250);
+}
+
+.nameprice{
+    display:flex;
+}
+
+.nameprice p{
+    font-family: "Roboto",sans-serif;
+    color: rgb(51, 51, 51);
+    font-style: italic;
+    line-height: 1.286;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.linechange{
+    padding:0px;
+}
+
+.name{
+    font-size: 14px;
+    width:140px;
+    margin:11px 0px 0px 21px;
+}
+
+.price{
+    font-size: 18px;
+    margin:11px 0px 0px 11px;
+}
+  
+  .adv{
+      background-color: rgb(171, 234, 250);
+      padding-top:0px;
+  }
+
+  .brands{
+      background: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 15px;
+  }
+
+  .brands img{
+      display:block;
+      width:120px;
+      height:45px;
+      margin:0px 13px 0px;
+      float:left;
+  }
+
+  .socials{
+      background-color: rgb(234, 234, 234);
+  }
+
+  .socials p{
+    font-size: 18px;
+    font-family: "Roboto",sans-serif;
+    color: rgb(51, 51, 51);
+    font-style: italic;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    margin:45px auto 0px;
+  }
+
+  .socials i{
+    font-size: 28px;
+  }
+
+  .socials span{
+    font-size: 22px;
+    font-family: "Roboto",sans-serif;
+    color: rgb(51, 51, 51);
+    font-style: italic;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .photos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .photos img{
+      display:block;
+      border: 7.5px rgb(255, 255, 255) solid;
+      margin: 25px 5px 0px;
+      float:left
+  }
+
+ .buttons{
+     display:flex;
+ }
+
+ @media all and (min-width: 0px) and (max-width: 991px) {
+    .buttons {
+        flex-direction: column;
+    }
+  } 
+
+ .buttons a{
+     display:block;
+     width:33.3333333%;
+     height:150px;
+     text-align: center;
+     font-size: 60px;
+     color: rgb(255, 255, 255);
+     box-sizing:border-box;
+     padding-top:40px;
+     float: left;
+ }
+
+ @media all and (min-width: 0px) and (max-width: 991px) {
+    .buttons a {
+        width: 100%;
+    }
+  } 
+
+ .buttons a:nth-child(1){
+    background-color: rgb(59, 89, 151);
+ }
+
+ .buttons a:nth-child(2){
+    background-color: rgb(63, 204, 253);
+}
+
+.buttons a:nth-child(3){
+    background-color: rgb(203, 32, 39);
+}
+
+.footer{
+    background-color: rgb(55, 55, 55);
+}
+  
+.FootCont{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.footitem{
+    width:200px;
+    overflow: hidden;
+    float:left;
+}
+
+.footitem ul{
+    list-style-type: none;
+    padding-left: 30px;
+    padding-top: 8px;
+}
+
+.footitem li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.footitem h4{
+    margin:72px 0px 0px 25px;
+    box-sizing:border-box;
+    font-size: 18px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.footitemtext h4{
+    margin:72px 0px 0px 0px;
+    box-sizing:border-box;
+    font-size: 18px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+}
+  
+.part{
+    display:flex;
+    justify-content: space-evenly;
+    float: left;
+}
+
+.footitemtext{
+    width:292px;
+    float: left;
+}
+
+.payments{
+    display:flex;
+    width:inherit;
+    margin-top:40px;
+}
+
+input{
+    width:251px;
+    height:30px;
+    background-color: rgb(255, 245, 31);
+    font-size: 12px;
+    font-family: "Roboto";
+    color: rgba(51, 51, 51, 0.451);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.75;
+}
+
+.payments img{
+    display:block;
+    width:36px;
+    height:22px;
+    margin:0px 5px;
+}
+
+.payments img:nth-child(1){
+    display:block;
+    width:36px;
+    height:22px;
+    margin:0px 5px 0px 0px;
+}
+
+
+.footitemtext p{
+font-size: 12px;
+  font-family: "Roboto",sans-serif;
+  color: rgb(248, 248, 248);
+  line-height: 1;
+  text-align: left;
+  width:200px;
+}
+
+.footitemtext .inf{
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    font-weight: bold;
+    color: rgb(248, 248, 248);
+    line-height: 1;
+    text-align: left;
+    width:200px; 
+}
+
+.inf span{
+    color:rgb(255, 245, 31);
+}
+
+.copy{
+    height:47px;
+    background-color: rgb(51, 51, 51);
+    width:100%;
+}
+
+.copy p{
+    font-size: 12px;
+    font-family: "Roboto",sans-serif;
+    color: rgb(218, 217, 217);
+    line-height: 1.8;
+    text-align: left;
+    margin-top:0px;
+}
+
+.CopyCont{
+    display:flex;
+    align-content: center;
+
+}
+
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .headright {
+        float:none;
+        margin:20px auto;
+    }
+  } 
+
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .headleft {
+        margin:20px auto;
+    }
+  } 
+
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .welcome {
+        position: unset;
+        margin:0px auto;
+    }
+  } 
+
+  @media all and (min-width: 0px) and (max-width: 767px) {
+    .headright {
+        float:left;
+        margin:20px 0px 20px 20px;
+    }
+  } 
+
+  @media all and (min-width: 0px) and (max-width: 767px) {
+    .headleft {
+        margin:20px 0px 20px 20px;
+    }
+  } 
+
+  @media all and (min-width: 0px) and (max-width: 767px) {
+    .welcome {
+        position: unset;
+        margin:0px;
+    }
+  } 
+
+  @media all and (min-width: 0) and (max-width: 991px) {
+    .leftpart {
+        margin:0px auto;
+    }
+  } 
+
+ 
+  @media all and (min-width: 0) and (max-width: 767px) {
+    .linechange {
+        margin:0px auto;
+    }
+  } 
+
+  @media all and (min-width: 0) and (max-width: 991px) {
+    .part {
+       display: block;
+       margin: 0px auto;
+    }
+  } 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
